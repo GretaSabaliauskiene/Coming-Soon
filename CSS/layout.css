@@ -1,0 +1,11 @@
+.container {
+    display: inline-block;
+    width: 100%;
+}
+    .row{
+        display: inline-block;
+        left: calc (50% - 500px);
+        width: 1000px;
+
+
+    }
