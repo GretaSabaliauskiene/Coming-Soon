@@ -1,5 +1,5 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![HitCount](https://github.com/GretaSabaliauskiene/Comming-Soon/index.html)
+![HitCount](http://hits.dwyl.io/GretaSabaliauskiene/Comming-Soon.svg)
 
 # Coming soon
 ### 15-grupe-coming-soon
