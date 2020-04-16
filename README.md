@@ -6,7 +6,7 @@
 
 This project is for educational porpuses only.
 
-Site published at https://github.com/GretaSabaliauskiene/Comming-Soon/index.html
+Site published at https://GretaSabaliauskiene.github.io/Comming-Soon/index.html
 
 ### Authors
 [Greta](https://github.com/GretaSabaliauskiene)
