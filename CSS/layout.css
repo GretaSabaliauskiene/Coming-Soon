@@ -3,6 +3,7 @@
     width: 100%;
     padding: 70px 0;
 }
+
 .container.hero {
     background-color: blueviolet;
     background-image: url(../img/banner-1.jpg);
@@ -90,8 +91,6 @@ container.hero > .hero-row > .logo {
     position: relative;
     margin-top: 40px;
     margin-bottom: 30px;
-
-
 }
 
 .container.hero > .hero-row > h1 {

@@ -1,0 +1,38 @@
+container.hero > .hero-row > .logo {
+    width: 30px;
+    display: inline-block;
+    left: calc(50% - 15px);
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container.hero > .hero-row > h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container.hero > .hero-row > p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: #ACABBD;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.container.hero > .hero-row > .laikrodis{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
