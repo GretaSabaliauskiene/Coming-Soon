@@ -10,24 +10,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .container.content{
 background-color: white;
-padding-top: 20px;
-padding-bottom: 20px;
+
 }
 .container.footer {
         background-color: blue;
         display:inline-block;
-        padding-top: 20px;
-        padding-bottom: 80px;
+        padding-top: 10px;
     }
    .container > .hero-row {
         display: inline-block;
         width: 800px;
         margin-left: calc(50% - 400px);
+        text-align: center;
     }
     .container > .row {
         display: inline-block;
