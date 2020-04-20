@@ -36,3 +36,25 @@ margin: 0 5%;
 display: inline-block;
 margin-top: 15px;
 }
+
+.content  h3 {
+display: inline-block;
+width: 100%;
+text-transform: uppercase;
+font-size: 25px;
+line-height: 20px;
+}
+
+.content p {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ACABBD;
+}
+
+.content p > a {
+    color:#EA1E63;
+    text-decoration: none;
+}
