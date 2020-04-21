@@ -1,0 +1,38 @@
+.laikrodis {
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.laikrodis > .time{
+    width: 25%;
+    float: left;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.time > .value {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family:'Raleway', sans-serif;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;    
+   
+}
+.time > .label {
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+ 
+@media (max-width: 700px) {
+    .laikrodis > .time {
+        width: 50%;
+        } 
+          
