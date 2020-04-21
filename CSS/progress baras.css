@@ -1,0 +1,45 @@
+.progress-barr {
+    width: 100%;
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+.progress-barr:nth-of-type(3) {
+    margin-bottom: 0;
+}
+
+.progress-barr > .tekstai {
+    display: inline-block;
+    width:100%;
+    color: #B0B1B6;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+    .progress-barr > .tekstai > .label {
+    display: inline-block;
+    float:left;
+    text-transform: capitalize;
+    
+}
+    .progress-barr > .tekstai > .value {
+    display: inline-block; 
+    float: right;
+}
+
+.progress-barr > .bar {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #EDEDED;
+    margin-top: 15px;
+
+   
+}
+.progress-barr > .bar > .value {
+    display: inline-block;
+    width: 90%;
+    background-color: #00A5F3;
+    height:100%;
+}
+
