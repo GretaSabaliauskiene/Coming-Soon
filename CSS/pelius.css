@@ -1,0 +1,29 @@
+.pelius {
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+.pelius > .ratukas {
+    display: inline-block;
+    width: 5px;
+    height: 7px;
+    background-color: white;
+    border-radius: 2.5px;
+    margin-top: 10px;
+    animation: pranyksta 2s ease 0s infinite;
+    
+}
+
+@keyframes pranyksta {
+    0% {
+        margin-top: 10px;
+        opacity: 1;
+}
+    100% {
+        margin-top: 30px;
+        opacity: 0;
+    }
+}
