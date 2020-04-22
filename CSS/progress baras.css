@@ -38,8 +38,30 @@
 }
 .progress-barr > .bar > .value {
     display: inline-block;
-    width: 90%;
+    height:100%;
+} 
+.progress-barr > .bar > .value > .loading {
+    display: inline-block;
+    width: 100%;
     background-color: #00A5F3;
     height:100%;
+    animation-name: kraunasi;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-play-state: running;
+
+    
 }
 
+@keyframes kraunasi {
+0%{
+width: 0;
+}
+100%{
+width: 100%;
+}
+}
