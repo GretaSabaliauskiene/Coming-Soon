@@ -1,4 +1,4 @@
-*MESSAGE FORMA*/
+/*MESSAGE FORMA*/
 
 .message-form{
     display: inline-block;
@@ -16,7 +16,7 @@
         padding-bottom: 6px;
         color: #B0B1B6;
         border-top: none; border-left: none; border-right: none;
-
+        
 }
     .message-form > textarea{
         resize: vertical;
@@ -70,3 +70,4 @@ transition: all 0.3s;
         padding: 10px 20px;
         border-radius: 2px;
         }   
+    }
