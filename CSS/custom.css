@@ -38,7 +38,7 @@ margin: 0 5%;
     width: 100%;
     background-color: transparent;
     color: white;
-    text-transform: capitalize;    
+    text-transform: capitalize;   
 }
 
 .hero-row > .pelius{
@@ -71,3 +71,4 @@ line-height: 20px;
 .content form > .btn{
     float: right;
 }
+

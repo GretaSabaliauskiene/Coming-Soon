@@ -22,9 +22,10 @@ form{
         max-height: 300px;
         padding-bottom: 0;
 }
-form > input::placeholder{
+.container.hero form > input::placeholder{
     color: white;
 }
+
 form :focus {
     outline: none;
 }
