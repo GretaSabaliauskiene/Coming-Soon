@@ -32,9 +32,18 @@ display: inline-block;
 width: 90%;
 margin: 0 5%;
 }
+
+.hero-row  form > input {
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;    
+}
+
 .hero-row > .pelius{
 display: inline-block;
-margin-top: 15px;
+margin: 20px 0;
 }
 
 .content  h3 {
@@ -57,4 +66,8 @@ line-height: 20px;
 .content p > a {
     color:#EA1E63;
     text-decoration: none;
+}
+
+.content form > .btn{
+    float: right;
 }
