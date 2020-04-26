@@ -11,6 +11,8 @@
     background-size: cover;
     background-position: center;
     padding-bottom: 20px;
+    min-height: 100vh;
+    background-attachment: fixed;
 }
 .container.content{
 background-color: white;
