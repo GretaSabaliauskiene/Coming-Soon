@@ -72,3 +72,6 @@ line-height: 20px;
     float: right;
 }
 
+.container.footer > .row{ 
+    position: relative;
+}
