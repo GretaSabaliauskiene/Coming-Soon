@@ -1,0 +1,95 @@
+.footer {
+display: inline-block;
+width: 100%;
+text-align: center;
+color: #fff9;
+font-size: 15px;
+line-height: 30px;
+}
+     .footer .ikonos{
+        display: inline-block;
+        width:100%;
+        border-bottom: 1px solid white;
+        padding: 10px 0;
+    }
+    .footer .ikonos > a {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        line-height: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        
+    }
+    .footer .ikonos > a:hover{
+        background-color: #EA1E63;
+    }
+
+         .footer .footer-info{
+            display: inline-block;
+            width: 600px;
+            margin: 0 calc(50% - 300px);
+            }
+            .footer-info > .logo-footer {
+            display: inline-block;
+            width:100%;
+            margin: 30px 0;
+            }
+            .footer-info > .logo-footer > img {
+                display: inline-block;
+                height: 30px;
+            }
+        .footer-info .copyrights{
+            display: inline-block;
+            /*width: 100%;*/
+            font-size: 15px;
+            line-height: 15px;
+            }
+            
+            .footer-info .copyrights > div {
+                display: inline-block;
+                float: left;
+                padding: 0 10px;
+                color: #fff9;
+            }
+            
+            .footer-info .copyrights > div:nth-of-type(2){
+                border-left: 1px solid white;
+                border-right: 1px solid white;
+            }
+            .footer-info p {
+            display: inline-block;
+            width: 100%;
+            color: #fff9;
+            }
+            .footer-info  a {
+                color: white;
+                text-decoration: none;
+            }
+        
+@media (max-width: 700px) {
+    .footer .footer-info{
+        width: 100%;
+        margin: 0;
+        }
+}
+@media (max-width: 700px) {
+    .footer-info .copyrights > div {
+       width: 100%; }
+}
+
+@media (max-width: 700px) {
+    .footer-info .copyrights > div {
+       width: 100%;}
+}
+
+@media (max-width: 700px){
+    .footer-info .copyrights > div:nth-of-type(2){
+        border: none;
+    margin: 0;
+    padding: 0;
+}
+}
